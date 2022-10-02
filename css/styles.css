@@ -1,0 +1,315 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --secondary-accent-color: #188CE8;
+    --primary-white-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+    --third-background-color: #2F303A;
+    --page-logo-color: #000000;
+    --address-contact-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.page-header {
+    background-color: var(--primary-white-color);
+}
+
+.site-nav-page-logo {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.site-nav-page-logo-studio {
+    color: var(--page-logo-color);
+}
+
+.site-nav-list {
+    list-style: none;
+}
+
+.site-nav-link {
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav-link-active {
+    color: var(--accent-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contact-list {
+    list-style: none;
+}
+
+.contact-info {
+    list-style: none;
+    color: var(--secondary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contact-info:hover,
+.contact-info:focus {
+    color: var(--accent-color);
+}
+
+.section-hero {
+    background-color: var(--third-background-color);
+}
+
+.section-hero-title {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.section-hero-button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: 0;
+}
+
+.section-hero-button:hover,
+.section-hero-button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--secondary-accent-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.section-list {
+    list-style: none;
+}
+
+.section-item-title {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.section-item-text {
+    color: var(--secondary-text-color);
+    line-height: 1.71;
+}
+
+.section-title {
+    color: var(--primary-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.section-team {
+    background-color: var(--secondary-background-color);
+}
+
+.section-team-title {
+    color: var(--primary-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.section-team-list {
+    list-style: none;
+}
+
+.section-team-item {
+    background-color: var(--primary-white-color);
+}
+
+.section-team-name {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.section-team-text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+div {
+    background-color: var(--third-background-color);
+}
+
+.footer-logo {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.footer-logo-studio {
+    color: var(--primary-white-color);
+}
+
+.section-address-list {
+    list-style: none;
+}
+
+.section-address-link {
+    color: var(--primary-white-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em; 
+    text-decoration: none;  
+}
+
+.section-address-link:hover,
+.section-address-link:focus {
+    color: var(--accent-color);
+}
+
+.section-address-contact {
+    color: var(--address-contact-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.section-address-contact:hover,
+.section-address-contact:focus {
+    color: var(--accent-color);
+}
+
+/* Стилі для портфоліо */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.filter {
+    background-color: var(--primary-white-color);
+}
+
+.filter-list {
+    list-style: none;
+}
+
+.filter-button {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-background-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.filter-projects-list {
+    list-style: none;
+}
+
+.filter-projects-item {
+    background-color: var(--primary-white-color);
+}
+
+.filter-projects-link {
+    text-decoration: none;
+}
+
+.filter-projects-title {
+    color: var(--primary-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+
+.filter-projects-text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
