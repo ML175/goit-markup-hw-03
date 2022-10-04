@@ -172,6 +172,8 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 94px;
 }
 
 .section-item-text {
@@ -185,6 +187,13 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     font-weight: 700;
     line-height: 1.16;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.section-item {
+    margin-top: 0;
+    margin-bottom: 188px;
 }
 
 .section-team {
@@ -197,6 +206,8 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     font-weight: 700;
     line-height: 1.16;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 .section-team-list {
@@ -207,12 +218,16 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
 
 .section-team-item {
     background-color: var(--primary-white-color);
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .section-team-name {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .section-team-text {
@@ -221,6 +236,8 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 div {
@@ -234,6 +251,8 @@ div {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .footer-logo-studio {
@@ -255,6 +274,8 @@ div {
     line-height: 1.71;
     letter-spacing: 0.03em; 
     text-decoration: none;  
+    margin-top: 0;
+    margin-bottom: 9px;
 }
 
 .section-address-link:hover,
