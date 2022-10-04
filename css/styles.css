@@ -58,6 +58,8 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
 
 .site-nav-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .site-nav-link {
@@ -87,6 +89,8 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
 
 .contact-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .contact-info {
@@ -117,6 +121,8 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .section-hero-button {
@@ -130,6 +136,9 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     cursor: pointer;
     border: 0;
     border-radius: 4px;
+    padding: 10px 32px;
+    display: inline-block;
+    min-width: 216px;
 }
 
 .section-hero-button:hover,
@@ -153,6 +162,8 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
 
 .section-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .section-item-title {
@@ -190,6 +201,8 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
 
 .section-team-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .section-team-item {
@@ -229,6 +242,8 @@ div {
 
 .section-address-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .section-address-link {
@@ -284,6 +299,8 @@ div {
 
 .filter-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .filter-button {
@@ -308,6 +325,8 @@ div {
 
 .filter-projects-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .filter-projects-item {
