@@ -32,6 +32,11 @@ body {
 /* background-color: tomato;
 outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
 
+.section.no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .page-header {
     background-color: var(--primary-white-color);
 }
@@ -50,6 +55,8 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .site-nav-page-logo-studio {
@@ -58,8 +65,9 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
 
 .site-nav-list {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .site-nav-link {
@@ -93,6 +101,10 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     margin: 0;
 }
 
+.container-contact {
+
+}
+
 .contact-info {
     list-style: none;
     color: var(--secondary-text-color);
@@ -111,6 +123,8 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
 
 .section-hero {
     background-color: var(--third-background-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .section-hero-title {
@@ -123,6 +137,9 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 30px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
 }
 
 .section-hero-button {
@@ -198,6 +215,10 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
 
 .section-team {
     background-color: var(--secondary-background-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-top: 0;
+    margin-bottom: 188px;
 }
 
 .section-team-title {
@@ -253,6 +274,8 @@ div {
     text-decoration: none;
     margin-top: 0;
     margin-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo-studio {
