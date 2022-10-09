@@ -15,32 +15,34 @@
 
 <body>
     <header class="page-header">
-        <div class="container-nav">
+        <div class="container-main-nav">
         <nav  class="site-nav">
-            <a href="./index.html" class="site-nav-page-logo">Web<span class="site-nav-page-logo-studio">Studio</span></a>
-            <ul class="site-nav-list">
-                <li><a href="./index.html" class="site-nav-link-active">Студія</a></li>
-                <li><a href="./portfolio.html" class="site-nav-link">Портфоліо</a></li>
-                <li><a href="#" class="site-nav-link">Контакти</a></li>
+            <div class="site-nav logo-webstudio"><a href="./index.html" class="site-nav logo">Web<span class="site-nav logo studio">Studio</span></a></div>
+            <ul class="site-nav list">
+                <li class="site-nav item"><a href="./index.html" class="site-nav link active">Студія</a></li>
+                <li class="site-nav item"><a href="./portfolio.html" class="site-nav link portfolio">Портфоліо</a></li>
+                <li class="site-nav item"><a href="#" class="site-nav link">Контакти</a></li>
             </ul>
         </nav>
-        </div>
-        <div class="container-contact">
-        <ul class="contact-list">
-            <li><a href="mailto:info@devstudio.com" class="contact-info">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="contact-info">+38 096 111 11 11</a></li>
+        <div class="contact">
+        <ul class="contact list">
+            <li class="contact item"><a href="mailto:info@devstudio.com" class="contact info">info@devstudio.com</a></li>
+            <li class="contact item"><a href="tel:+380961111111" class="contact info number">+38 096 111 11 11</a></li>
         </ul>
+        </div>
         </div>
     </header>
 
     <main>
         <section class="section-hero">
-            <h1 class="section-hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="section-hero-button" type="button">Замовити послугу</button>
+            <div class="section-hero container">
+            <h1 class="section-hero title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="section-hero button" type="button">Замовити послугу</button>
+            </div>
         </section>
 
         <section class="section">
-            <div class="container-section">
+            <div class="section container">
                 <h2 hidden class="visually-hidden">Наші особливості</h2>
                 <ul class="section-list">
                     <li class="section-item">
@@ -108,7 +110,7 @@
     </main>
 
      <footer>
-        <div>
+        <div class="footer container">
         <a href="./index.html" class="footer-logo">Web<span class="footer-logo-studio">Studio</span></a>
         <address class="section-address">
         <ul class="section-address-list">
