@@ -235,6 +235,20 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     background-color: var(--secondary-accent-color);
 }
 
+.section.container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.section-items {
+    display: block;
+    padding-top: 94px;
+    padding-right: 215px;
+    padding-left: 215px;
+    padding-bottom: 118px;
+}
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -248,7 +262,11 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     margin: -1px;
 }
 
-.section-list {
+.section.list {
+    display: flex;
+}
+
+.section.list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -261,7 +279,16 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     line-height: 1.14;
     text-transform: uppercase;
     margin-top: 0;
-    margin-bottom: 94px;
+    margin-bottom: 10px;
+   
+}
+
+.section-item {
+    min-width: 270px;
+}
+
+.section-item-title:not(:last-child) {
+    padding-right: 30px;
 }
 
 .section-item-text {
@@ -269,7 +296,24 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     line-height: 1.71;
 }
 
-.section-title {
+.section-item-text:not(:last-child) {
+    margin-right: 30px;
+}
+
+.section-items.container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.section.item {
+    margin-top: 0;
+    padding-right: 617px;
+    padding-left: 617px;
+    padding-bottom: 94px;
+}
+
+.section.title {
     color: var(--primary-text-color);
     font-size: 36px;
     font-weight: 700;
@@ -277,11 +321,16 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     text-align: center;
     margin-top: 0;
     margin-bottom: 50px;
+    min-width: 366px;
 }
 
-.section-item {
-    margin-top: 0;
-    margin-bottom: 188px;
+.section-item.list {
+    display: flex;
+}
+
+.section-item:not(:last-child) {
+    margin-right: 30px;
+
 }
 
 .section-team {
