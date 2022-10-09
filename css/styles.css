@@ -185,6 +185,8 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-hero {
@@ -239,6 +241,8 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-items {
@@ -304,6 +308,8 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section.item {
@@ -331,6 +337,14 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
 .section-item:not(:last-child) {
     margin-right: 30px;
 
+}
+
+.container-team {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-team {
@@ -461,10 +475,28 @@ div.footer.container {
     background-color: var(--primary-white-color);
 }
 
-.filter-list {
+.filter.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.filter-item.container {
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-top: 94px;
+    padding-right: 513px;
+    padding-left: 512px;
+    align-items: center;
+    
+}
+
+.filter.list {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    margin-top: 0;
+    display: flex;
 }
 
 .filter-button {
@@ -481,27 +513,66 @@ div.footer.container {
 
 }
 
+.filter-item{
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    min-width: 130px;
+    outline: 1px solid tomato;
+}
+
+.filter.item:not(:last-child) {
+    margin-right: 8px;
+}
+
 .filter-button:hover,
 .filter-button:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
 
-.filter-projects-list {
+
+.filter-projects.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.filter-projects.list {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.filter-projects-item {
+.filter-projects.item {
     background-color: var(--primary-white-color);
+    width: calc((100% - 60px)/3);
+    margin-right: 30px;
+    margin-bottom: 30px;
+
 }
 
-.filter-projects-link {
+.filter-projects.item:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.filter-projects.item:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.filter-projects.link {
     text-decoration: none;
 }
 
-.filter-projects-title {
+.filter-projects.title {
     color: var(--primary-text-color);
     font-size: 18px;
     font-weight: 700;
@@ -510,7 +581,7 @@ div.footer.container {
 
 }
 
-.filter-projects-text {
+.filter-projects.text {
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;

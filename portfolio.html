@@ -12,76 +12,94 @@
         <link rel="stylesheet" href="./css/styles.css">
     </head>
 
-  <body>
-    <header class="page-header">
-      <nav class="site-nav">
-        <a href="./index.html" class="site-nav-page-logo">Web<span class="site-nav-page-logo-studio">Studio</span></a>
-        <ul class="site-nav-list">
-          <li><a href="./index.html" class="site-nav-link">Студія</a></li>
-          <li><a href="./portfolio.html" class="site-nav-link-active">Портфоліо</a></li>
-          <li><a href="#" class="site-nav-link">Контакти</a></li>
-        </ul>
-      </nav>
-      <ul class="contact-list">
-        <li><a href="mailto:info@devstudio.com" class="contact-info">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="contact-info">+38 096 111 11 11</a></li>
-      </ul>
-    </header>
+    <body>
+      <header class="page-header">
+          <div class="container-main-nav">
+          <nav  class="site-nav">
+              <div class="site-nav logo-webstudio"><a href="./index.html" class="site-nav logo">Web<span class="site-nav logo studio">Studio</span></a></div>
+              <ul class="site-nav list">
+                  <li class="site-nav item"><a href="./index.html" class="site-nav link">Студія</a></li>
+                  <li class="site-nav item"><a href="./portfolio.html" class="site-nav link active">Портфоліо</a></li>
+                  <li class="site-nav item"><a href="#" class="site-nav link">Контакти</a></li>
+              </ul>
+          </nav>
+          <div class="contact">
+          <ul class="contact list">
+              <li class="contact item"><a href="mailto:info@devstudio.com" class="contact info">info@devstudio.com</a></li>
+              <li class="contact item"><a href="tel:+380961111111" class="contact info number">+38 096 111 11 11</a></li>
+          </ul>
+          </div>
+          </div>
+      </header>
 
     <main>
       <section class="filter">
+        <div class="filter container">
+          <div class="filter-item container">
         <h1 hidden class="visually-hidden">Наші роботи</h1>
-        <ul class="filter-list">
-          <li><button type="button" class="filter-button">Усі</button></li>
-          <li><button type="button" class="filter-button">Веб-сайти</button></li>
-          <li><button type="button" class="filter-button">Додатки</button></li>
-          <li><button type="button" class="filter-button">Дизайн</button></li>
-          <li><button type="button" class="filter-button">Маркетинг</button></li>
+        <ul class="filter list">
+          <li class="filter-item"><button type="button" class="filter-button">Усі</button></li>
+          <li class="filter-item"><button type="button" class="filter-button">Веб-сайти</button></li>
+          <li class="filter-item"><button type="button" class="filter-button">Додатки</button></li>
+          <li class="filter-item"><button type="button" class="filter-button">Дизайн</button></li>
+          <li class="filter-item"><button type="button" class="filter-button">Маркетинг</button></li>
         </ul>
-
-        <ul class="filter-projects-list">
-          <li class="filter-projects-item"><a href="#" class="filter-projects-link"><img src="./images/technocrack.jpg"
+          </div>
+        <div class="filter-projects container">
+        <ul class="filter-projects list">
+    
+          <li class="filter-projects item"><a href="#" class="filter-projects link"><img src="./images/technocrack.jpg"
                 alt="три члена команди усміхаються" width="370">
-            <h2 class="filter-projects-title">Технокряк</h2>
-            <p class="filter-projects-text">Веб-сайт</p></a>
+            <h2 class="filter-projects title">Технокряк</h2>
+            <p class="filter-projects text">Веб-сайт</p></a>
           </li>
-          <li class="filter-projects-item"><a href="#" class="filter-projects-link"><img src="./images/new-orlean-vs-golden-star.jpg"
+    
+          <li class="filter-projects item"><a href="#" class="filter-projects link"><img src="./images/new-orlean-vs-golden-star.jpg"
                 alt="два баскетболіста боряться за м'яч" width="370">
-            <h2 class="filter-projects-title">Постер New Orlean vs Golden Star</h2>
-            <p class="filter-projects-text">Дизайн</p></a>
+            <h2 class="filter-projects title">Постер New Orlean vs Golden Star</h2>
+            <p class="filter-projects text">Дизайн</p></a>
           </li>
-          <li class="filter-projects-item"><a href="#" class="filter-projects-link"><img src="./images/the-seafood-restaurant.jpg"
+    
+          <li class="filter-projects item"><a href="#" class="filter-projects link"><img src="./images/the-seafood-restaurant.jpg"
                 alt="надпис ресторану морської кухні" width="370">
-            <h2 class="filter-projects-title">Ресторан Seafood</h2>
-            <p class="filter-projects-text">Додаток</p></a>
+            <h2 class="filter-projects title">Ресторан Seafood</h2>
+            <p class="filter-projects text">Додаток</p></a>
           </li>
-          <li class="filter-projects-item"><a href="#" class="filter-projects-link"><img src="./images/prime.jpg" alt="чорні навушники" width="370">
-            <h2 class="filter-projects-title">Проєкт Prime</h2>
-            <p class="filter-projects-text">Маркетинг</p></a>
+    
+          <li class="filter-projects item"><a href="#" class="filter-projects link"><img src="./images/prime.jpg" alt="чорні навушники" width="370">
+            <h2 class="filter-projects title">Проєкт Prime</h2>
+            <p class="filter-projects text">Маркетинг</p></a>
           </li>
-          <li class="filter-projects-item"><a href="#" class="filter-projects-link"><img src="./images/boxes.jpg" alt="дві картонні коробки" width="370">
-            <h2 class="filter-projects-title">Проєкт Boxes</h2>
-            <p class="filter-projects-text">Додаток</p></a>
+    
+          <li class="filter-projects item"><a href="#" class="filter-projects link"><img src="./images/boxes.jpg" alt="дві картонні коробки" width="370">
+            <h2 class="filter-projects title">Проєкт Boxes</h2>
+            <p class="filter-projects text">Додаток</p></a>
           </li>
-          <li class="filter-projects-item"><a href="#" class="filter-projects-link"><img src="./images/inspiration-has-no-borders.jpg" 
+    
+          <li class="filter-projects item"><a href="#" class="filter-projects link"><img src="./images/inspiration-has-no-borders.jpg" 
             alt="карта світу на екрані комп'ютера" width="370">
-            <h2 class="filter-projects-title">Inspiration has no Borders</h2>
-            <p class="filter-projects-text">Веб-сайт</p></a>
+            <h2 class="filter-projects title">Inspiration has no Borders</h2>
+            <p class="filter-projects text">Веб-сайт</p></a>
           </li>
-          <li class="filter-projects-item"><a href="#" class="filter-projects-link"><img src="./images/limited-edition.jpg" alt="відкрита книга" width="370">
-            <h2 class="filter-projects-title">Видання Limited Edition</h2>
-            <p class="filter-projects-text">Дизайн</p></a>
+    
+          <li class="filter-projects item"><a href="#" class="filter-projects link"><img src="./images/limited-edition.jpg" alt="відкрита книга" width="370">
+            <h2 class="filter-projects title">Видання Limited Edition</h2>
+            <p class="filter-projects text">Дизайн</p></a>
           </li>
-          <li class="filter-projects-item"><a href="#" class="filter-projects-link"><img src="./images/lab.jpg" alt="цінник" width="370">
-            <h2 class="filter-projects-title">Проєкт LAB</h2>
-            <p class="filter-projects-text">Маркетинг</p></a>
+    
+          <li class="filter-projects item"><a href="#" class="filter-projects link"><img src="./images/lab.jpg" alt="цінник" width="370">
+            <h2 class="filter-projects title">Проєкт LAB</h2>
+            <p class="filter-projects text">Маркетинг</p></a>
           </li>
-          <li class="filter-projects-item"><a href="#" class="filter-projects-link"><img src="./images/growing-business.jpg" alt="людина працює за комп'ютером"
+      
+          <li class="filter-projects item"><a href="#" class="filter-projects link"><img src="./images/growing-business.jpg" alt="людина працює за комп'ютером"
               width="370">
-            <h2 class="filter-projects-title">Growing Business</h2>
-            <p class="filter-projects-text">Додаток</p></a>
+            <h2 class="filter-projects title">Growing Business</h2>
+            <p class="filter-projects text">Додаток</p></a>
           </li>
         </ul>
+        </div>
+       </div>
       </section>
     </main>
 
