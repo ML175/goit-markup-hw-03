@@ -190,7 +190,7 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
 }
 
 .section-hero {
-    display: block;
+    display: inline-block;
     background-color: var(--third-background-color);
     padding-top: 200px;
     padding-right: 452px;
@@ -200,6 +200,7 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
 }
 
 .section-hero.title {
+
     color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
@@ -211,6 +212,10 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     margin-top: 0;
     margin-bottom: 30px;
     min-width: 696px;
+}
+
+.hero-title {
+
 }
 
 .section-hero.button {
@@ -226,7 +231,10 @@ outline: 2px solid tomato; w200, padding left/right 15px (half of gutter)*/
     border: 0;
     border-radius: 4px;
 
-    padding: 10px 32px;
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-left: 32px;
     display: inline-block;
     min-width: 152px;
 }
@@ -513,13 +521,24 @@ div.footer.container {
 
 }
 
-.filter-item{
+.filter-item {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
     padding-top: 6px;
-    padding-right: 22px;
     padding-bottom: 6px;
-    padding-left: 22px;
     min-width: 130px;
     outline: 1px solid tomato;
+}
+
+.filter-item:not(:first-child) {
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+.filter-item:(:first-child) {
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 .filter.item:not(:last-child) {
@@ -578,7 +597,7 @@ div.footer.container {
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
-
+    margin-bottom: 4px;
 }
 
 .filter-projects.text {
@@ -586,4 +605,16 @@ div.footer.container {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+}
+
+.items {
+    display: block;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+}
+
+.projects.item {
+    display: block;
+    margin-bottom: 20px;
 }
